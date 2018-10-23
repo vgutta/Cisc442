@@ -14,13 +14,7 @@ print("clicked", y)
 x = np.array(x)
 y = np.array(y)
 transformation = np.linalg.lstsq(x, y)
-inverse = np.array(transformation)
-print("shape", inverse.shape)
-#print("inverse", inverse)
-inverse = np.linalg.inv(inverse)
 print("transformations", transformation)
-#print(type(inverse))
-print("inverse", inverse)
 plt.show()
 
 
